@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: cyan;
+}
+
+.liens {
+    background-color: gray;
+    color: black;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: seagreen;
+    text-decoration: underline pink;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    color: #fff;
+    background-color: black;
+}
+
+.paragraphes {
+    display: flex;
+    justify-content: space-around;
+    border: solid 3px violet;
+}
+
+.paragraphes p {
+    border: solid 3px cornflowerblue;
+}
+
+form {
+    background-color: gray;
+    border: solid 0.3em red;
+    width: max-content;
+    margin: 1em auto;
+}
+
+form div {
+    width: 10em;
+    padding: 1em;
+}
